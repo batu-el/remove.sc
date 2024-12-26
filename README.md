@@ -3,7 +3,7 @@
 
 Our experiments are divided into two parts. In the first part, we inspect the internal representations learned by models fine-tuned with ERM and four existing loss function-based shortcut mitigation methods. Using natural language inference (MultiNLI) and toxicity detection (CivilComments) datasets, we ($1$) compare the representations learned by different loss functions using Centered Kernel Alignment (CKA), ($2$) probe the representations for information about the shortcut attributes, and ($3$) investigate how the classifier layers use the information from the earlier layer representations to make predictions. In the second part, we conduct causal intervention experiments to understand how an ERM-trained model implements a shortcut rule and find suggestive evidence for CRH. Finally, we demonstrate that \textsc{reprshift} can be used to substantially improve worst-group performance on MultiNLI.
 
-Link to Paper: https://drive.google.com/file/d/1kUKYPgOuO7L0O2zEAoE1sgTRpFLr8Cp4/view?usp=sharing
+Link to Paper: https://drive.google.com/file/d/1kUKYPgOuO7L0O2zEAoE1sgTRpFLr8Cp4/view?usp=sharing <br>
 Link to Drive Folder: https://drive.google.com/drive/folders/1T_b7RTp3zTHDRM1Z27c7m__Smff6FWpV?usp=sharing
 
 ## References and Summary
