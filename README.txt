@@ -34,4 +34,3 @@ Most of the code for our experiments can be found under "notebooks" folder
 ### Other ###
 #############
 # We use the code from https://github.com/jayroxis/CKA-similarity/tree/main for our CKA experiments
-# 
