@@ -35,7 +35,6 @@ if is_bitsandbytes_available():
     import bitsandbytes as bnb
     from bitsandbytes.nn.modules import Params4bit
 
-
 # Embed & Unembed
 class Embed(nn.Module):
     def __init__(self, cfg: Union[Dict, HookedTransformerConfig]):
@@ -159,7 +158,6 @@ class TokenTypeEmbed(nn.Module):
 
     def forward(self, token_type_ids: Int[torch.Tensor, "batch pos"]):
         return self.W_token_type[token_type_ids, :]
-
 
 class BertEmbed(nn.Module):
     """
