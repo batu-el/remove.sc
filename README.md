@@ -13,6 +13,7 @@ The notebooks are divided into 3 parts: Data, Training, and Analysis notebooks <
 **Training Notebooks:** used to train our models <br>
 **Analysis Notebooks:** used for our experiments <br>
 The analysis notebooks contain the code for our experiments <br>
+We ran all our experiments using the GPUs accessed via Google Colab.
 
 ### Reprshift Folder
 reprshift contains the code for some of our models and is based on Subpopbench: https://github.com/YyzHarry/SubpopBench <br>
