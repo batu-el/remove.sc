@@ -1,15 +1,13 @@
-README: References and Summary
+Link to Paper: https://drive.google.com/file/d/1kUKYPgOuO7L0O2zEAoE1sgTRpFLr8Cp4/view?usp=sharing
 
-########################
-### Notebooks Folder ###
-########################
-Most of the code for our experiments can be found under "notebooks" folder 
-
-# The notebooks are divided into 3: Data, Training, and Analysis notebooks
-# Data Notebooks: we used it to inspect the datasets
-# Training Notebooks: we used it to train our models
-# Analysis Notebooks: we used them for our experiments
-# The analysis notebooks contain the code for our experiments
+# References and Summary
+### Notebooks Folder
+Most of the code for our experiments can be found under "notebooks" folder <br>
+The notebooks are divided into 3 parts: Data, Training, and Analysis notebooks <br>
+**Data Notebooks:**  used to inspect the datasets <br>
+**Training Notebooks:** used to train our models <br>
+**Analysis Notebooks:** used for our experiments <br>
+The analysis notebooks contain the code for our experiments <br>
 
 ########################
 ### Reprshift Folder ###
