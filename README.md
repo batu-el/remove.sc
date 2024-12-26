@@ -6,7 +6,7 @@ Our experiments are divided into two parts. In the first part, we inspect the in
 Link to Paper: https://drive.google.com/file/d/1kUKYPgOuO7L0O2zEAoE1sgTRpFLr8Cp4/view?usp=sharing <br>
 Link to Drive Folder: https://drive.google.com/drive/folders/1T_b7RTp3zTHDRM1Z27c7m__Smff6FWpV?usp=sharing
 
-## References and Summary
+## Organization
 ### Notebooks Folder
 Most of the code for our experiments can be found under "notebooks" folder <br>
 The notebooks are divided into 3 parts: Data, Training, and Analysis notebooks <br>
