@@ -10,39 +10,7 @@ Shortcuts are decision rules that exploit spurious correlations between the inpu
 
 Our experiments are divided into two parts. In the first part, we inspect the internal representations learned by models fine-tuned with ERM and four existing loss function-based shortcut mitigation methods. Using natural language inference (MultiNLI) and toxicity detection (CivilComments) datasets, we (1) compare the representations learned by different loss functions using Centered Kernel Alignment (CKA), (2) probe the representations for information about the shortcut attributes, and (3) investigate how the classifier layers use the information from the earlier layer representations to make predictions. In the second part, we conduct causal intervention experiments to understand how an ERM-trained model implements a shortcut rule and find suggestive evidence for CRH. Finally, we demonstrate that reprshift can be used to substantially improve worst-group performance on MultiNLI.
 
-# Background
-![Alt text](assets/background/distribution-shifts.png)
-![Alt text](assets/background/loss-function-based-approaches.png)
-![Alt text](assets/background/new-perspective.png)
-
-# Competing Rules Hypothesis
-![Alt text](assets/crh/hypothesis.png)
-### Empirical Evidence A. Constructive Interference
-![Alt text](assets/crh/constructive-int.png)
-### Empirical Evidence B. Destructive Interference
-![Alt text](assets/crh/destructive-int.png)
-### Empirical Evidence C. Narrow Channels
-![Alt text](assets/crh/narrow-channels.png)
-
-# Representation Shift
-![Alt text](assets/reprshift/model-algebra.png)
-![Alt text](assets/reprshift/model-edit.png)
-![Alt text](assets/reprshift/results.png)
-
-# Inspecting Representations
-![Alt text](assets/inspecting-representations/representation-similarity.png)
-![Alt text](assets/inspecting-representations/probes.png)
-![Alt text](assets/inspecting-representations/logit-lens.png)
-
-# Training Dynamics
-![Alt text](assets/apdx-training-dynamics/training-dynamics-mnli.png)
-![Alt text](assets/apdx-training-dynamics/training-dynamics-cc.png)
-
----
-
 # Codebase Overview
-
-This section provides a structured overview of the organization and purpose of the various components within this codebase.
 
 ## Directory Structure
 
@@ -78,6 +46,46 @@ This folder includes a customized version of the Transformer Lens library:
 
 - **CKA Experiments**: For experiments involving CKA (Centered Kernel Alignment), we use code from the following repository: [https://github.com/jayroxis/CKA-similarity/tree/main](https://github.com/jayroxis/CKA-similarity/tree/main).
 
+---
+
+# Background
+![Alt text](assets/background/distribution-shifts.png)
+![Alt text](assets/background/loss-function-based-approaches.png)
+![Alt text](assets/background/new-perspective.png)
+
+---
+
+# Competing Rules Hypothesis
+![Alt text](assets/crh/hypothesis.png)
+### Empirical Evidence A. Constructive Interference
+![Alt text](assets/crh/constructive-int.png)
+### Empirical Evidence B. Destructive Interference
+![Alt text](assets/crh/destructive-int.png)
+### Empirical Evidence C. Narrow Channels
+![Alt text](assets/crh/narrow-channels.png)
+
+---
+
+# Representation Shift
+![Alt text](assets/reprshift/model-algebra.png)
+![Alt text](assets/reprshift/model-edit.png)
+![Alt text](assets/reprshift/results.png)
+
+---
+
+# Inspecting Representations
+![Alt text](assets/inspecting-representations/representation-similarity.png)
+![Alt text](assets/inspecting-representations/probes.png)
+![Alt text](assets/inspecting-representations/logit-lens.png)
+
+---
+
+# Training Dynamics
+![Alt text](assets/apdx-training-dynamics/training-dynamics-mnli.png)
+![Alt text](assets/apdx-training-dynamics/training-dynamics-cc.png)
+
+---
+
 # Citation
 
 ```bibtex
@@ -89,4 +97,3 @@ This folder includes a customized version of the Transformer Lens library:
 }
 ```
 ---
-
