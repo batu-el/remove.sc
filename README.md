@@ -13,13 +13,13 @@ Our experiments are divided into two parts. In the first part, we inspect the in
 ![Alt text](assets/background/loss-function-based-approaches.png)
 ![Alt text](assets/background/new-perspective.png)
 
-## Empirical Evidence for Competing Rules Hypothesis
+# Competing Rules Hypothesis
 ![Alt text](assets/crh/hypothesis.png)
-### A. Constructive Interference
+### Empirical Evidence A. Constructive Interference
 ![Alt text](assets/crh/constructive-int.png)
-### B. Destructive Interference
+### Empirical Evidence B. Destructive Interference
 ![Alt text](assets/crh/destructive-int.png)
-### C. Narrow Channels
+### Empirical Evidence C. Narrow Channels
 ![Alt text](assets/crh/narrow-channels.png)
 
 ## Representation Shift
