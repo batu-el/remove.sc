@@ -1,5 +1,7 @@
 # Understanding and Improving Representation Learning in the Presence of Shortcuts
 
+![Alt text](assets/reprshift/model-algebra.png)
+
 [![Paper](https://img.shields.io/badge/Paper-007ACC?style=for-the-badge&labelColor=007ACC)](https://drive.google.com/file/d/1kUKYPgOuO7L0O2zEAoE1sgTRpFLr8Cp4/view?usp=sharing)
 [![Drive Folder](https://img.shields.io/badge/Drive_Folder-007ACC?style=for-the-badge&labelColor=007ACC)](https://drive.google.com/drive/folders/1T_b7RTp3zTHDRM1Z27c7m__Smff6FWpV?usp=sharing)
 
@@ -22,16 +24,21 @@ Our experiments are divided into two parts. In the first part, we inspect the in
 ### Empirical Evidence C. Narrow Channels
 ![Alt text](assets/crh/narrow-channels.png)
 
-# Representation Shift (REPRSHIFT)
+# Representation Shift
 ![Alt text](assets/reprshift/model-algebra.png)
 ![Alt text](assets/reprshift/model-edit.png)
 ![Alt text](assets/reprshift/results.png)
 
-## Inspecting Representations
+# Inspecting Representations
+![Alt text](assets/inspecting-representations/representation-similarity.png)
+![Alt text](assets/inspecting-representations/probes.png)
+![Alt text](assets/inspecting-representations/logit-lens.png)
 
-## Training Dynamics
+# Training Dynamics
+![Alt text](assets/apdx-training-dynamics/training-dynamics-cc.png)
+![Alt text](assets/apdx-training-dynamics/training-dynamics-mnli.png)
 
-## Organization
+# Codebase
 ### Notebooks Folder
 Most of the code for our experiments can be found under "notebooks" folder <br>
 The notebooks are divided into 3 parts: Data, Training, and Analysis notebooks <br>
