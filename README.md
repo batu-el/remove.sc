@@ -1,6 +1,6 @@
-# Understanding and Improving Representation Learning in the Presence of Shortcuts
-
 ![Alt text](assets/reprshift/model-algebra.png)
+
+# Understanding and Improving Representation Learning in the Presence of Shortcuts
 
 [![Paper](https://img.shields.io/badge/Paper-007ACC?style=for-the-badge&labelColor=007ACC)](https://drive.google.com/file/d/1kUKYPgOuO7L0O2zEAoE1sgTRpFLr8Cp4/view?usp=sharing)
 [![Drive Folder](https://img.shields.io/badge/Drive_Folder-007ACC?style=for-the-badge&labelColor=007ACC)](https://drive.google.com/drive/folders/1T_b7RTp3zTHDRM1Z27c7m__Smff6FWpV?usp=sharing)
@@ -35,8 +35,8 @@ Our experiments are divided into two parts. In the first part, we inspect the in
 ![Alt text](assets/inspecting-representations/logit-lens.png)
 
 # Training Dynamics
-![Alt text](assets/apdx-training-dynamics/training-dynamics-cc.png)
 ![Alt text](assets/apdx-training-dynamics/training-dynamics-mnli.png)
+![Alt text](assets/apdx-training-dynamics/training-dynamics-cc.png)
 
 # Codebase
 ### Notebooks Folder
