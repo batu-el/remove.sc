@@ -38,24 +38,55 @@ Our experiments are divided into two parts. In the first part, we inspect the in
 ![Alt text](assets/apdx-training-dynamics/training-dynamics-mnli.png)
 ![Alt text](assets/apdx-training-dynamics/training-dynamics-cc.png)
 
-# Codebase
-### Notebooks Folder
-Most of the code for our experiments can be found under "notebooks" folder <br>
-The notebooks are divided into 3 parts: Data, Training, and Analysis notebooks <br>
-**Data Notebooks:**  used to inspect the datasets <br>
-**Training Notebooks:** used to train our models <br>
-**Analysis Notebooks:** used for our experiments <br>
-The analysis notebooks contain the code for our experiments <br>
-We ran all our experiments using the GPUs accessed via Google Colab.
+---
 
-### Reprshift Folder
-reprshift contains the code for some of our models and is based on Subpopbench: https://github.com/YyzHarry/SubpopBench <br>
-Our implementations of the Loss function based methods and evaluation pipeline, are also based on the implementations from Subpopbench:  https://github.com/YyzHarry/SubpopBench
+# Codebase Overview
 
-### transformerlens_2 Folder
-Transformer Lens is the library we use to inspect the model internals. We made modifications to the code to adapt it for our purpose. The modifications are minor and only serve the purpose of converting the HookedEncoder from MLM to Classification. Specifically, we ran test to understand the differences and changed the stucture of the MLM head. This modified version of the library is in transformerlens_2 folder.  <br>
-The original repository can be found here: https://github.com/TransformerLensOrg/TransformerLens
-We also use this library's functionality to run activation patching experiments. 
+This section provides a structured overview of the organization and purpose of the various components within this codebase.
 
-### Other
-We use the code from https://github.com/jayroxis/CKA-similarity/tree/main for our CKA experiments
+## Directory Structure
+
+### `notebooks/`
+
+This folder contains Jupyter notebooks used for experiments. These notebooks are categorized into three main types:
+
+1. **Data Notebooks**: Used for dataset inspection and exploration.
+2. **Training Notebooks**: Contain scripts for training our models.
+3. **Analysis Notebooks**: Used to run experiments and analyze results.
+
+All experiments were conducted using GPUs accessed via Google Colab.
+
+### `reprshift/`
+
+This folder contains the core codebase for our models, largely derived from the SubpopBench repository, adapted and extended to fit our specific experiments:
+
+- **Source**: SubpopBench repository ([https://github.com/YyzHarry/SubpopBench](https://github.com/YyzHarry/SubpopBench))
+- **Contents**:
+  - Implementations of loss function-based methods.
+  - Evaluation pipeline for models.
+
+### `transformerlens_2/`
+
+This folder includes a customized version of the Transformer Lens library:
+
+- **Original Library**: Transformer Lens ([https://github.com/TransformerLensOrg/TransformerLens](https://github.com/TransformerLensOrg/TransformerLens))
+- **Modifications**:
+  - Adapted the HookedEncoder from a Masked Language Model (MLM) to a Classification model.
+  - Adjusted the MLM head structure to facilitate our experiments.
+
+### Additional Resources
+
+- **CKA Experiments**: For experiments involving CKA (Centered Kernel Alignment), we use code from the following repository: [https://github.com/jayroxis/CKA-similarity/tree/main](https://github.com/jayroxis/CKA-similarity/tree/main).
+
+# Citation
+
+```bibtex
+@article{elunderstandingshortcuts,
+    title={Understanding and Improving Representation Learning in the Presence of Shortcuts},
+    author={El, Batu},
+    journal={MPhil Thesis, University of Cambridge},
+    year={2024}
+}
+```
+---
+
