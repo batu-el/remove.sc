@@ -14,6 +14,12 @@ Our experiments are divided into two parts. In the first part, we inspect the in
 ![Alt text](assets/background/new-perspective.png)
 
 ## Empirical Evidence for Competing Rules Hypothesis
+### Constructive Interference
+![Alt text](assets/crh/constructive-int.png)
+### Destructive Interference
+![Alt text](assets/crh/destructive-int.png)
+### Narrow Channels
+![Alt text](assets/crh/narrow-channels.png)
 
 ## Representation Shift
 
