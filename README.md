@@ -10,7 +10,7 @@ Our experiments are divided into two parts. In the first part, we inspect the in
 
 ## Background
 ![Alt text](assets/background/distribution-shifts.png)
-![Alt text](assets/background/loss-function-based.png)
+![Alt text](assets/background/loss-function-based-approaches.png)
 ![Alt text](assets/background/new-perspective.png)
 
 ## Empirical Evidence for Competing Rules Hypothesis
