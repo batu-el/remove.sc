@@ -10,6 +10,8 @@ Shortcuts are decision rules that exploit spurious correlations between the inpu
 
 Our experiments are divided into two parts. In the first part, we inspect the internal representations learned by models fine-tuned with ERM and four existing loss function-based shortcut mitigation methods. Using natural language inference (MultiNLI) and toxicity detection (CivilComments) datasets, we (1) compare the representations learned by different loss functions using Centered Kernel Alignment (CKA), (2) probe the representations for information about the shortcut attributes, and (3) investigate how the classifier layers use the information from the earlier layer representations to make predictions. In the second part, we conduct causal intervention experiments to understand how an ERM-trained model implements a shortcut rule and find suggestive evidence for CRH. Finally, we demonstrate that reprshift can be used to substantially improve worst-group performance on MultiNLI.
 
+*We recommend reading the introduction section from the paper, which provides a comprehensive summary of our work.*
+
 # Codebase Overview
 
 ## Directory Structure
