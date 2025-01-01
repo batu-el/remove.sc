@@ -1,11 +1,11 @@
 
+![Alt text](assets/cover.png)
+
 # Understanding and Improving Representation Learning in the Presence of Shortcuts
----
+
 [![Paper](https://img.shields.io/badge/Paper-007ACC?style=for-the-badge&labelColor=007ACC)](https://github.com/batu-el/understanding-shortcuts/blob/main/paper.pdf)
 [![Presentation](https://img.shields.io/badge/Presentation-007ACC?style=for-the-badge&labelColor=007ACC)](https://github.com/batu-el/understanding-shortcuts/blob/main/presentation.pdf)
----
 
-![Alt text](assets/cover.png)
 ## Abstract 
 Shortcuts are decision rules that exploit spurious correlations between the input attributes and labels that hold for the majority of the training examples. Consequently, they lead to worse performance on minority data groups where the spurious correlations do not hold. Models fine-tuned with Empirical Risk Minimization (ERM) have been observed to struggle with predictions on out-of-distribution (OOD) test sets, where the proportion of data groups differs from the one seen by the model during training, due to the model's reliance on shortcuts. In response, previous research has proposed various modifications to the loss function to re-weight the contribution of training examples; however, the effect of these modifications on the models' internal representations and decision-making processes is not well understood. In this thesis, we develop Competing Rules Hypothesis (CRH), which describes the model's decision-making process as a competition between an intended rule and a shortcut rule, as a framework to understand how models implement simple shortcuts. Building on CRH, we propose Representation Shift (reprshift), which surgically modifies a single layer inside the network to systematically shift the representations of examples with shortcuts, as an interpretability-based approach to shortcut mitigation. 
 
