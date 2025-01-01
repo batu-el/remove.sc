@@ -1,4 +1,4 @@
-![Alt text](assets/reprshift/model-algebra.png)
+![Alt text](assets/cover.png)
 
 # Understanding and Improving Representation Learning in the Presence of Shortcuts
 
